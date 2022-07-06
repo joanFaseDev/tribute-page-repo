@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+}
+
+/* BODY */
+body {
+  margin: 0 auto;
+  padding: 30px 10px;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right top, #d3d3d3, #bfbfbf);
+}
+
+/* MAIN */
+.container-main {
+  background-color: #222423;
+  width: 100%;
+  padding-top: 30px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+/* TITLE & SUBTITLE */
+.container-main__title,
+.container-main__subtitle {
+  text-align: center;
+  color: #fefefe;
+}
+
+/* FIGURE (CONTENEUR IMAGE) */
+.container-image {
+  min-width: 80%;
+  background: linear-gradient(to right top, #dddcdc, #b8b7b7);
+  margin: 16px 20px 30px;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* IMAGE */
+#image {
+  /* width: 75%;
+  min-width: 400px; */
+  max-width: 80%;
+  height: auto;
+  border-radius: 5px;
+  margin: 0 auto;
+  display: block;
+}
+
+.container-image__legend {
+  margin-top: 10px;
+  color: #222423;
+}
+
+/* SECTION IMPORTANT DATES */
+.tribute-info__time-line {
+  color: #fefefe;
+  width: 40%;
+  min-width: 400px;
+  margin: 20px auto;
+}
+
+.tribute-info__title {
+  padding-top: 30px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.tribute-info__ul {
+  margin-top: 32px;
+  padding: 40px;
+}
+
+.tribute-info__item {
+  padding-bottom: 25px;
+  line-height: 2;
+}
+
+.tribute-info__quote {
+  margin: 0 0 16px;
+  text-align: justify;
+  font-style: italic;
+  font-size: 15px;
+  line-height: 1.4;
+}
+
+.footer-container {
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.footer-container__tribute {
+  text-align: center;
+  padding-top: 15px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fefefe;
+}
+
+#tribute-info {
+  padding-bottom: 30px;
+}
+
+#tribute-link {
+  text-decoration: none;
+  color: #d3d3d3;
+  padding-bottom: 0;
+}
+
+#tribute-link:hover {
+  border-bottom: 1px solid #d3d3d3;
+}
+
+#tribute-link:active {
+  border-bottom: 1px solid #fefefe;
+  color: #fefefe;
+}
+
+/* Modificateurs */
+.title--letter {
+  font-size: 3rem;
+}
+
+.tribute-info--spacing {
+  position: relative;
+  left: 7px;
+}
+
+.tribute-info__date {
+  font-weight: bold;
+}
+
+/* Requêtes média*/
+@media (max-width: 690px) {
+  .container-main__title {
+    font-size: 26px;
+  }
+
+  .container-main__subtitle {
+    font-size: 12px;
+  }
+
+  .container-image__legend {
+    font-size: 14px;
+  }
+}

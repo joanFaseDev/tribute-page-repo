@@ -1,0 +1,4 @@
+# Tribute Page App
+
+A tribute page focused on Shigeru Miyamoto, the awesome game designer who fathered Mario, Link and a lot more. That project was a simple one yet it left me exhausted and irritated because for one, i realised that some basics CSS notions that i believed were truly in my grasp (positionning mostly and also relative units) in reality weren't at all. And for two, it took me way too longer (a few hours) to complete that project which means basically that i'm slow (which isn't the point) and i'm slow because i lack experience (that is the point).
+So i'm gonna try to learn as much as possible of that project and use it to grow. For starter, i'm gonna try to build at least one small project a day to gain as much experience as possible and, in the same time, refocus on fundamental concepts of HTML, CSS and JS. Conclusion: practicing is the key (if possible, the right way)!
